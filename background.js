@@ -8,7 +8,7 @@ function injectScript(tabId) {
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (!tab.url?.startsWith("https://github.com/") || !tab.url?.includes("/pull/")) return undefined;
 
-  if (changeInfo.url) {
-      injectScript(tabId);
+  if (changeInfo.status === 'complete') {
+    injectScript(tabId);
   }
 });
