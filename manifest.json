@@ -9,6 +9,19 @@
     "48": "icons/load-more-pr_48.png",
     "128": "icons/load-more-pr_128.png"
   },
+  "background": {
+    "service_worker": "background.js",
+    "matches": [
+      "https://github.com/*/*/pull/*"
+    ]
+  },
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://github.com/*/*"
+  ],
   "content_scripts": [
     {
       "matches": [
@@ -16,7 +29,7 @@
       ],
       "run_at": "document_end",
       "js": [
-        "content-scripts/content.js"
+        "inject.js"
       ]
     }
   ]
