@@ -6,10 +6,10 @@
   "homepage_url": "https://github.com/ChrisBibby/load-more-pr",
   "description": "Extension to help with those very long Github Pull Requests",
   "icons": {
-    "16": "icons/load-more-pr_16.png",
-    "32": "icons/load-more-pr_32.png",
-    "48": "icons/load-more-pr_48.png",
-    "128": "icons/load-more-pr_128.png"
+    "16": "./icons/load-more-pr_16.png",
+    "32": "./icons/load-more-pr_32.png",
+    "48": "./icons/load-more-pr_48.png",
+    "128": "./icons/load-more-pr_128.png"
   },
   "background": {
     "service_worker": "background.js",
