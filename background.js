@@ -1,6 +1,6 @@
 function injectScript(tabId) {
   chrome.scripting.executeScript({
-    target: {tabId: tabId},
+    target: { tabId: tabId },
     files: ['inject.js'],
   });
 }
