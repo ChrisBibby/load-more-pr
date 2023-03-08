@@ -6,6 +6,6 @@ The extension is limited to loading 25 diffs at a time and clicking it is only a
 ![Load More Pull Request - Screenshot](https://raw.githubusercontent.com/chrisbibby/load-more-pr/main/images/screenshot.png "Load More Diffs button added page")
 
 ## Store Links
-- Microsoft Edge: TBC
+- [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/load-more-pull-request/kjpkmiidagoaogongfodilidoajmibdg) 
 - Google Chrome: TBC
 - Mozilla Firefox: TBC
