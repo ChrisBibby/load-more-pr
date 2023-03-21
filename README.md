@@ -8,4 +8,4 @@ The extension is limited to loading 25 diffs at a time and clicking it is only a
 ## Store Links
 - [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/load-more-pull-request/kjpkmiidagoaogongfodilidoajmibdg) 
 - [Google Chrome](https://chrome.google.com/webstore/detail/load-more-pull-request/elpanehbmbcebclnioijeadngjcfpjid)
-- Mozilla Firefox: TBC
+- [Mozilla Firefox](https://addons.mozilla.org/en-GB/firefox/addon/load-more-pull-request/) 
