@@ -1,8 +1,8 @@
 if (document.getElementById("load-diffs-btn") === null) {
   const loadDiffsBtn = document.createElement("div");
-  loadDiffsBtn.setAttribute("class", "btn btn-sm");
+  loadDiffsBtn.setAttribute("class", "diffbar-item btn btn-sm");
   loadDiffsBtn.setAttribute("id", "load-diffs-btn");
-  loadDiffsBtn.setAttribute("style", "margin-left:10px; float:right;");
+  loadDiffsBtn.setAttribute("style", "margin-right:15px;");
   loadDiffsBtn.textContent = "Load More Diffs";
 
   loadDiffsBtn.onclick = () => {
@@ -10,8 +10,7 @@ if (document.getElementById("load-diffs-btn") === null) {
       loadDiffsBtn.setAttribute("aria-disabled", "true");
 
       [...document.querySelectorAll("button.load-diff-button")]
-        .filter(y => y.textContent
-          .includes("Load diff"))
+        .filter(y => y.textContent.includes("Load diff"))
         .slice(0, 25)
         .forEach((btn) => {
           setTimeout(() => btn.click(), 100)
@@ -23,8 +22,8 @@ if (document.getElementById("load-diffs-btn") === null) {
     }
   };
 
-  const prReviewTools = document.getElementsByClassName("pr-review-tools")[0];
-  if (prReviewTools != undefined) {
-    prReviewTools.append(loadDiffsBtn);
+  const jsReviewsContainer = document.getElementsByClassName("diffbar-item dropdown js-reviews-container")[0];
+  if (jsReviewsContainer != undefined) {
+    jsReviewsContainer.insertAdjacentElement('beforebegin', loadDiffsBtn);
   }
 }
