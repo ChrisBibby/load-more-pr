@@ -29,8 +29,7 @@
     "https://github.com/*/*/pull/*"
   ],
   "permissions": [
-    "scripting",
-    "tabs"
+    "scripting"
   ],
   "browser_specific_settings": {
     "gecko": {

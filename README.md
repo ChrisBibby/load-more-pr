@@ -5,6 +5,9 @@ The extension is limited to loading 25 diffs at a time and clicking it is only a
 
 ![Load More Pull Request - Screenshot](https://raw.githubusercontent.com/chrisbibby/load-more-pr/main/images/screenshot.png "Load More Diffs button added page")
 
+## Notes:
+Firefox users may have to grant the extension permission to run on github - setting 'Always allow on github.com'
+
 ## Store Links
 - [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/load-more-pull-request/kjpkmiidagoaogongfodilidoajmibdg) 
 - [Google Chrome](https://chrome.google.com/webstore/detail/load-more-pull-request/elpanehbmbcebclnioijeadngjcfpjid)

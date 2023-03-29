@@ -2,6 +2,11 @@
 
 All notable changes to the "Load More Pull Request" browser extension will be documented in this file:
 
+#### v1.0.2 (March 29 2023)
+- Relocated button to load diffs
+- Removed unnecessary permission 
+- Repackaged extension to support Chrome/Edge/Firefox
+
 ### *Chrome / Edge*
 
 #### v1.0.1 (March 17 2023)
